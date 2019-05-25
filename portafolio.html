@@ -2,132 +2,151 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="HTML,CSS,JavaScript">
-    <meta name="author" content="Manuel Chávez">
-    <meta name="Description" content="Portafolio Web">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Portafolio Web | Portafolio</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home - Portafolio web</title>
 </head>
 <body>
     <!--SECTION MENU-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <header class="container-fluid">
-        
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link py-4 mr-2" href="index.html">INICIO</a>
-            <a class="nav-item nav-link py-4 mr-2" href="portafolio.html">PORTAFOLIO</a>
-          </div>
-        </div>
-      </header>    
-    </nav>
-    <section class="container-main">
-      <h3 class="py-4">Trabajos realizados</h3>
+        <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <nav class="navbar-nav ml-auto mr-auto">
+                <a class="nav-item nav-link p-4" href="index.html">INICIO</a>
+                <a class="nav-item nav-link p-4" href="portafolio.html">PORTAFOLIO</a>
+                <a class="nav-item nav-link p-4" href="habilidades.html">HABILIDADES</a>
+            </nav>
+        </section>
+    </header>
+
+    <hr>
+    <section class="container-fluid d-flex justify-content-center align-items-center">
+        <h3 class="py-4">Trabajos realizados</h3>
     </section>
     <hr>
-    <!--SECTION CARD SMALL-->
-    <section class="container-main flex-wrap">
-      <article class="card-section">
-        <section class="card-section-body">
-            <a href="https://github.com/mmedinasv05/ToDo-List" target="_blank" class="btn-github">Ir a github <span class="fas fa-arrow-right"></span></a>
-        </section>
-        <img src="./img/Todo-List.png" class="img-block" alt="">
-      </article>
 
-      <article class="card-section">
-        <section class="card-section-body">
-          <a href="https://github.com/mmedinasv05/Formulario-Nasa" target="_blank" class="btn-github">Ir a github <span class="fas fa-arrow-right"></span></a>
-        </section>
-        <img src="./img/formulario.png" class="img-block" alt="">
-      </article>
+    <!--SECTION CARD-->
+    <section class="container-flui d-flex flex-wrap justify-content-center align-items-center">
+        <article class="card-style-second mt-4" title="To-Do List">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/ToDo-List" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/Todo-List.png" class="img-responsive" alt="">
+        </article>
+        <article class="card-style-second mt-4" title="Calculadora de propina">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/Calculadora-Propina" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/calculadora.png" class="img-responsive" alt="">
+        </article>
+        <article class="card-style-second mt-4" title="Diseño de la App Whatsapp">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/Design-AppWhatsapp" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/whatsapp.png" class="img-responsive" alt="">
+        </article>
+        <article class="card-style-second mt-4" title="Cámara con CSS">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/Design-Camera" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/Camara.png" class="img-responsive" alt="">
+        </article>
 
-      <article class="card-section">
-        <section class="card-section-body">
-          <a href="https://github.com/mmedinasv05/Calculadora-Propina" target="_blank" class="btn-github">Ir a github <span class="fas fa-arrow-right"></span></a>
-        </section>
-        <img src="./img/calculadora.png" class="img-block" alt="">
-      </article>
+        <article class="card-style-second mb-4" title="Diseño de un formulario">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/Formulario-Nasa" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/formulario.png" class="img-responsive" alt="">
+        </article>
+        <article class="card-style-second mb-4" title="Web site restaurante">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/Design-WebSite-Restaurante" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/restaurante.png" class="img-responsive" alt="">
+        </article>
+        <article class="card-style-second mb-4" title="Curriculum vitae">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/Design-Curriculum" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/Curriculum.png" class="img-responsive" alt="">
+        </article>
+        <article class="card-style-second mb-4" title="Web site Movie">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/Design-WebSite-Movie" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/movie.png" class="img-responsive" alt="">
+        </article>
 
-      <article class="card-section">
-        <section class="card-section-body">
-          <a href="https://github.com/mmedinasv05/Design-Curriculum" target="_blank" class="btn-github">Ir a github <span class="fas fa-arrow-right"></span></a>
-        </section>
-        <img src="./img/Curriculum.png" class="img-block" alt="">
-      </article>
-
-      <article class="card-section">
-        <section class="card-section-body">
-          <a href="https://github.com/mmedinasv05/Design-WebSite-Restaurante" target="_blank" class="btn-github">Ir a github <span class="fas fa-arrow-right"></span></a>
-        </section>
-        <img src="./img/restaurante.png" class="img-block" alt="">
-      </article>
-
-      <article class="card-section">
-        <section class="card-section-body">
-          <a href="https://github.com/mmedinasv05/Design-WebSite-Movie" target="_blank" class="btn-github">Ir a github <span class="fas fa-arrow-right"></span></a>
-        </section>
-        <img src="./img/movie.png" class="img-block" alt="">
-      </article>
-
-      <article class="card-section">
-        <section class="card-section-body">
-          <a href="https://github.com/mmedinasv05/Design-AppWhatsapp" target="_blank" class="btn-github">Ir a github <span class="fas fa-arrow-right"></span></a>
-        </section>
-        <img src="./img/whatsapp.png" class="img-block" alt="">
-      </article>
-
-      <article class="card-section">
-        <section class="card-section-body">
-          <a href="https://github.com/mmedinasv05/Design-Camera" target="_blank" class="btn-github">Ir a github <span class="fas fa-arrow-right"></span></a>
-        </section>
-        <img src="./img/Camara.png" class="img-block" alt="">
-      </article>
-      
-  
+        <article class="card-style-second mb-4" title="Template Pocas Pulgas">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/Template-DePocasPulgas" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/Template-PocasPulgas1.png" class="img-responsive" alt="">
+        </article>
+        <article class="card-style-second mb-4" title="Template portafolio worpress">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/Template-PortafolioWorpress" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/Template-PortafolioWorpress1.PNG" class="img-responsive" alt="">
+        </article>
+        <article class="card-style-second mb-4" title="Portafolio Web">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/Template-PortafolioWeb" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/TemplatePortafolio1.PNG" class="img-responsive" alt="">
+        </article>
+        <article class="card-style-second mb-4" title="Formulario de registro">
+            <section class="card-style-opacity">
+                <a href="https://github.com/mmedinasv05/Form-Login" target="_blank" class="btn btn-primary">ir a Github.</a>
+            </section>
+            <img src="./image/Form.png" class="img-responsive" alt="">
+        </article>
     </section>
 
     <!--SECTION FOOTER-->
     <footer class="container-main d-flex flex-wrap">
         <nav class="container-item-footer-L">
             <span class="fab fa-linkedin-in"></span>
-          <a href="https://www.linkedin.com/in/manuel-chavez-841b82178/" title="Linkedin" target="_blank">
-            <h2 class="text-light">Linkedin</h2>
-          </a>
+            <a href="https://www.linkedin.com/in/manuel-chavez-841b82178/" title="Linkedin" target="_blank">
+                <h2 class="text-light">Linkedin</h2>
+             </a>
         </nav>
         <nav class="container-item-footer-C">
-          <span class="fab fa-codepen"></span>
-          <a href="https://codepen.io/mmedinasv/" title="Codepen" target="_blank">
-            <h2 class="text-light">Codepen</h2>
-          </a>
+            <span class="fab fa-codepen"></span>
+            <a href="https://codepen.io/mmedinasv/" title="Codepen" target="_blank">
+                <h2 class="text-light">Codepen</h2>
+             </a>
         </nav>
         <nav class="container-item-footer-I">
-          <span class="fab fa-instagram"></span>
-          <a href="https://www.instagram.com/mmedina_oficial/" title="Instagram" target="_blank">
-            <h2 class="text-light">Instagram</h2>
-          </a>
+            <span class="fab fa-instagram"></span>
+            <a href="https://www.instagram.com/mmedina_oficial/" title="Instagram" target="_blank">
+                <h2 class="text-light">Instagram</h2>
+            </a>
         </nav>
         <nav class="container-item-footer-G">
-          <span class="fab fa-github"></span>
-          <a href="https://github.com/mmedinasv05" title="Github" target="_blank">
-            <h2 class="text-light">Github</h2>
-          </a>
+            <span class="fab fa-github"></span>
+            <a href="https://github.com/mmedinasv05" title="Github" target="_blank">
+                <h2 class="text-light">Github</h2>
+            </a>
         </nav>
     </footer>
-    <footer class="conatiner-main d-flex flex-wrap">
-      <footer class="sub-footer p-4 justify-content-start">
-        <h6 class="ml-4 text-light"><span class="far fa-copyright"></span> Design by Manuel Chávez</h6>
-      </footer>
-      <footer class="sub-footer p-4 justify-content-end">
-          <a href="index.html">INICIO</a>
-          <a href="portafolio.html">PORTAFOLIO</a>
-      </footer>
+    <hr>
+    <footer class="container-main d-flex flex-wrap">
+        <nav class="sub-footer d-flex justify-content-start align-items-center">
+            <ul>
+                <li class="ml-5"><a href="index.html">INICIO</a></li>
+                <li class="ml-3"><a href="portafolio.html">PORTAFOLIO</a></li>
+                <li class="ml-3"><a href="habilidades.html">HABILIDADES</a></li>
+            </ul>
+        </nav>
+        <nav class="sub-footer d-flex justify-content-end align-items-center">
+            <h6 class="mr-5">Design by Manuel Chávez</h6>
+        </nav>
     </footer>
 <script src="./js/jquery.js"></script>
 <script src="./js/bootstrap.js"></script>
